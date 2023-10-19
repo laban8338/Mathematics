@@ -1,0 +1,37 @@
+void main() {
+  // Integer data type
+  int myInt = 42;
+  print("Integer: $myInt");
+
+  // Double data type
+  double myDouble = 3.14;
+  print("Double: $myDouble");
+
+  // String data type
+  String myString = "Hello, Dart!";
+  print("String: $myString");
+
+  // Boolean data type
+  bool isDartFun = true;
+  print("Boolean: $isDartFun");
+
+  // List (Array) data type
+  List<int> myIntList = [1, 2, 3, 4, 5];
+  print("List: $myIntList");
+
+  // Map (Dictionary) data type
+  Map<String, dynamic> myMap = {
+    "name": "Laban",
+    "age": 20,
+    "isStudent": false,
+  };
+  print("Map: $myMap");
+
+  // Dynamic data type (can hold any type)
+  dynamic myDynamic = "I can change types!";
+  print("Dynamic: $myDynamic");
+
+  // Symbol data type (rarely used)
+  Symbol mySymbol = #mySymbol;
+  print("Symbol: $mySymbol");
+}
